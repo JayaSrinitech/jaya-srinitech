@@ -2,11 +2,12 @@
   "name": "vite_react_shadcn_ts",
   "private": true,
   "version": "0.0.0",
-  "homepage":"https://JayaSrinitech.github.io/jaya-srinitech",
+  "homepage":"https://JayaSrinitech.github.io/jaya-srinitech/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
+    "clean" : "gh-pages-clean",
     "dev": "vite",
     "build": "vite build",
     "build:dev": "vite build --mode development",
