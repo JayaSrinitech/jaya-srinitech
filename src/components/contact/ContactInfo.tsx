@@ -1,8 +1,6 @@
 
 import React from 'react';
 import { Phone, Mail, MapPin, Clock } from 'lucide-react';
-import BlurImage from '../ui/BlurImage';
-import { Card, CardContent } from '../ui/card';
 
 const ContactInfo = () => {
   const contactDetails = [
@@ -44,45 +42,6 @@ const ContactInfo = () => {
     }
   ];
 
-  const productImages = [
-    {
-      src: "https://m.media-amazon.com/images/I/51jx5-OAACL._SX679_.jpg",
-      alt: "TONZO Interactive Flat Panel - Front View"
-    },
-    {
-      src: "https://m.media-amazon.com/images/I/51y5eG3kkdL._SX679_.jpg",
-      alt: "TONZO Interactive Flat Panel - Angle View"
-    },
-    {
-      src: "https://m.media-amazon.com/images/I/51ch1i-tR3L._SX679_.jpg",
-      alt: "TONZO Interactive Flat Panel - Side View"
-    },
-    {
-      src: "https://m.media-amazon.com/images/I/51TnnvAhkZL._SX679_.jpg",
-      alt: "TONZO Interactive Flat Panel - Display Detail"
-    },
-    {
-      src: "https://m.media-amazon.com/images/I/51Np3Ng5VgL._SX679_.jpg",
-      alt: "TONZO Interactive Flat Panel - Functionality"
-    },
-    {
-      src: "https://m.media-amazon.com/images/I/51chsB65neL._SX679_.jpg",
-      alt: "TONZO Interactive Flat Panel - Feature Showcase"
-    },
-    {
-      src: "https://m.media-amazon.com/images/I/51Ob9buE2AL._SL1000_.jpg",
-      alt: "TONZO Interactive Flat Panel - Usage Example"
-    },
-    {
-      src: "https://m.media-amazon.com/images/I/51IaavR6+tL._SL1000_.jpg",
-      alt: "TONZO Interactive Flat Panel - Educational Setup"
-    },
-    {
-      src: "https://m.media-amazon.com/images/I/51s2zWO18fL._SL1000_.jpg",
-      alt: "TONZO Interactive Flat Panel - Connectivity Options"
-    }
-  ];
-
   return (
     <div className="animate-fade-in">
       <h3 className="text-2xl font-semibold mb-6">Contact Information</h3>
@@ -115,32 +74,6 @@ const ContactInfo = () => {
             )}
           </div>
         ))}
-      </div>
-      
-      <div className="mb-8">
-        <h3 className="text-2xl font-semibold mb-6">Product Gallery</h3>
-        <p className="text-muted-foreground mb-6">
-          Browse through images of our flagship TONZO Interactive Flat Panel. Click on any image to view details.
-        </p>
-        
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-          {productImages.map((image, index) => (
-            <Card key={index} className="overflow-hidden group cursor-pointer hover:shadow-elevation-medium transition-all duration-300">
-              <CardContent className="p-0">
-                <div className="relative aspect-[4/3]">
-                  <BlurImage
-                    src={image.src}
-                    alt={image.alt}
-                    className="object-cover transition-transform duration-300 group-hover:scale-105"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
-                    <p className="text-white text-xs md:text-sm p-3">{image.alt}</p>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-          ))}
-        </div>
       </div>
       
       <div className="rounded-xl overflow-hidden h-[300px] shadow-elevation-medium">
