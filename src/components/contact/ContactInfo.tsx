@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Phone, Mail, MapPin, Clock } from 'lucide-react';
 
@@ -16,10 +15,10 @@ const ContactInfo = () => {
     {
       icon: Mail,
       title: "Email",
-      details: ["info@jayasrini.tech", "support@jayasrini.tech"],
+      details: ["JayaSrinitech@gmail.com", "support@jayasrini.tech"],
       action: {
         text: "Send email",
-        href: "mailto:info@jayasrini.tech"
+        href: "mailto:JayaSrinitech@gmail.com"
       }
     },
     {

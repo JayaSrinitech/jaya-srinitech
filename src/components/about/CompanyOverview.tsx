@@ -40,28 +40,6 @@ const CompanyOverview = () => {
             <p className="text-muted-foreground">
               Our mission is to make advanced interactive technology accessible to educational institutions of all sizes, fostering environments where learning becomes more dynamic, collaborative, and effective.
             </p>
-            
-            <div className="mt-8 grid grid-cols-2 gap-4">
-              <div className="bg-white p-4 rounded-xl shadow-elevation-low">
-                <div className="text-3xl font-bold text-jaya-600 mb-1">5+</div>
-                <div className="text-sm text-muted-foreground">Years of Excellence</div>
-              </div>
-              
-              <div className="bg-white p-4 rounded-xl shadow-elevation-low">
-                <div className="text-3xl font-bold text-jaya-600 mb-1">500+</div>
-                <div className="text-sm text-muted-foreground">Schools Equipped</div>
-              </div>
-              
-              <div className="bg-white p-4 rounded-xl shadow-elevation-low">
-                <div className="text-3xl font-bold text-jaya-600 mb-1">20+</div>
-                <div className="text-sm text-muted-foreground">States Covered</div>
-              </div>
-              
-              <div className="bg-white p-4 rounded-xl shadow-elevation-low">
-                <div className="text-3xl font-bold text-jaya-600 mb-1">98%</div>
-                <div className="text-sm text-muted-foreground">Client Satisfaction</div>
-              </div>
-            </div>
           </div>
           
           <div className="order-1 md:order-2 animate-slide-in-right">

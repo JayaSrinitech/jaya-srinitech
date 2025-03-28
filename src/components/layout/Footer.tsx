@@ -85,8 +85,8 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="mailto:info@jayasrini.tech" className="text-sm text-muted-foreground hover:text-jaya-600 transition-colors flex items-center gap-2">
-                  <Mail size={16} className="text-jaya-600" /> info@jayasrini.tech
+                <a href="mailto:JayaSrinitech@gmail.com" className="text-sm text-muted-foreground hover:text-jaya-600 transition-colors flex items-center gap-2">
+                  <Mail size={16} className="text-jaya-600" /> JayaSrinitech@gmail.com
                 </a>
               </li>
               <li className="flex gap-2">
