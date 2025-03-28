@@ -46,7 +46,7 @@ const Hero = () => {
           <div className="order-1 lg:order-2 relative animate-fade-in">
             <div className="relative bg-white p-2 rounded-2xl shadow-elevation-medium overflow-hidden animate-float">
               <BlurImage
-                src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=1200&q=80"
+                src="https://m.media-amazon.com/images/I/51IaavR6+tL._SL1000_.jpg"
                 alt="TONZO Interactive Flat Panel"
                 className="rounded-xl aspect-[4/3] object-cover"
               />
