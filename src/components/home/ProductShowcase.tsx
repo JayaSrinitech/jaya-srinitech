@@ -54,7 +54,7 @@ const ProductShowcase = () => {
           <div className="relative">
             <div className="bg-white rounded-2xl p-3 shadow-elevation-medium relative z-10 lg:rotate-[-2deg] transition-transform hover:rotate-0 duration-500">
               <BlurImage
-                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1200&q=80"
+                src="https://m.media-amazon.com/images/I/51y5eG3kkdL._SX679_.jpg"
                 alt="TONZO Interactive Panel in a classroom"
                 className="rounded-xl aspect-video object-cover"
               />
