@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Phone, Mail, MapPin, Clock } from 'lucide-react';
 
@@ -7,10 +6,10 @@ const ContactInfo = () => {
     {
       icon: Phone,
       title: "Phone",
-      details: ["+91 98765 43210", "+91 98765 43211"],
+      details: ["+91 6304352595"],
       action: {
         text: "Call us",
-        href: "tel:+919876543210"
+        href: "tel:+916304352595"
       }
     },
     {

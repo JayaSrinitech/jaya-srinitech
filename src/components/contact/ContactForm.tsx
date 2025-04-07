@@ -110,7 +110,7 @@ const ContactForm = () => {
                 onChange={handleChange}
                 required
                 className="w-full px-4 py-2.5 rounded-lg border border-input focus:border-jaya-500 focus:ring-2 focus:ring-jaya-500/20 focus:outline-none transition-colors"
-                placeholder="Enter your phone number"
+                placeholder="+91 6304352595"
               />
             </div>
             

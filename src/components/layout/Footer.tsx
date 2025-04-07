@@ -80,8 +80,8 @@ const Footer = () => {
             <h3 className="font-semibold mb-4 text-md">Contact Us</h3>
             <ul className="space-y-3">
               <li>
-                <a href="tel:+919876543210" className="text-sm text-muted-foreground hover:text-jaya-600 transition-colors flex items-center gap-2">
-                  <Phone size={16} className="text-jaya-600" /> +91 98765 43210
+                <a href="tel:+916304352595" className="text-sm text-muted-foreground hover:text-jaya-600 transition-colors flex items-center gap-2">
+                  <Phone size={16} className="text-jaya-600" /> +91 6304352595
                 </a>
               </li>
               <li>
