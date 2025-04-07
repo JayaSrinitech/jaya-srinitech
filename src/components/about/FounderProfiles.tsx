@@ -1,44 +1,44 @@
 
 import React from 'react';
-import { Linkedin, Twitter, Mail } from 'lucide-react';
+import { Linkedin, Twitter, Mail, Phone } from 'lucide-react';
 import BlurImage from '../ui/BlurImage';
 
 const FounderProfiles = () => {
   const founders = [
     {
-      name: "Rajiv Sharma",
-      role: "CEO & Technology Visionary",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=600&q=80",
-      background: "With over 15 years in educational technology, Rajiv leads our product development with his vision of transforming traditional classrooms into interactive learning environments.",
-      expertise: ["Product Strategy", "Educational Technology", "Business Development"],
+      name: "Prudhvi",
+      role: "Chief Product Officer",
+      image: "https://i.postimg.cc/kG5ZZKqV/Prudhvi.jpg",
+      background: "Prudhvi is a visionary leader passionate about revolutionizing educational technology. He believes that interactive learning environments are the future of education and is dedicated to transforming traditional classrooms into engaging spaces that foster curiosity and creativity. With a keen eye for innovation, Prudhvi leads the development of cutting-edge products like the TONZO Interactive Flat Panel, ensuring they meet the evolving needs of educators and students alike.",
+      expertise: ["EdTech Innovation", "Product Development", "Educational Technology Trends"],
       social: {
         linkedin: "#",
         twitter: "#",
-        email: "mailto:rajiv@jayasrini.tech"
+        email: "mailto:prudhvi@jayasrini.tech"
       }
     },
     {
-      name: "Priya Mehta",
-      role: "COO & Marketing Director",
-      image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=600&q=80",
-      background: "Priya brings her extensive experience in marketing and business strategy to drive our partnerships and ensure our solutions reach educational institutions nationwide.",
-      expertise: ["Marketing Strategy", "Business Partnerships", "Customer Relations"],
+      name: "Venkatesh",
+      role: "Chief Marketing Officer",
+      image: "https://i.postimg.cc/MT5Ndd22/Venky.jpg",
+      background: "Venkatesh is a seasoned marketing professional with a proven track record of driving business growth through strategic partnerships and effective marketing strategies. He leverages his expertise to expand Jaya Srini Tech Solutions' reach across educational institutions nationwide, ensuring that their innovative products benefit schools and colleges everywhere.",
+      expertise: ["Marketing Strategy", "Partnership Development", "Business Development"],
       social: {
         linkedin: "#",
         twitter: "#",
-        email: "mailto:priya@jayasrini.tech"
+        email: "mailto:venkatesh@jayasrini.tech"
       }
     },
     {
-      name: "Dr. Arun Kumar",
+      name: "Noel",
       role: "Chief Education Officer",
-      image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=600&q=80",
-      background: "With a Ph.D. in Educational Psychology, Dr. Kumar ensures our products align with pedagogical best practices and truly enhance the teaching and learning experience.",
-      expertise: ["Educational Research", "Curriculum Development", "Teacher Training"],
+      image: "https://i.postimg.cc/KjsVyj80/Noel.jpg",
+      background: "Noel is an education expert dedicated to ensuring that Jaya Srini Tech Solutions' products align with the best pedagogical practices. He works closely with educators and researchers to understand the evolving needs of the education sector, ensuring that the company's interactive panels enhance both teaching and learning experiences.",
+      expertise: ["Pedagogical Design", "Educational Research", "Teacher Support"],
       social: {
         linkedin: "#",
         twitter: "#",
-        email: "mailto:arun@jayasrini.tech"
+        email: "mailto:noel@jayasrini.tech"
       }
     }
   ];
@@ -62,6 +62,11 @@ const FounderProfiles = () => {
           <p className="text-muted-foreground">
             Our leadership team combines expertise in technology, business, and education to create solutions that truly transform learning environments.
           </p>
+          
+          <div className="mt-6 flex items-center justify-center gap-3">
+            <Phone className="h-5 w-5 text-jaya-600" />
+            <span className="text-lg font-medium">+91 6304352595</span>
+          </div>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-6">

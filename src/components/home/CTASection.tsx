@@ -72,7 +72,7 @@ const CTASection = () => {
             
             <div className="lg:p-8 flex items-end justify-center">
               <img 
-                src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81?auto=format&fit=crop&w=800&q=80" 
+                src="https://m.media-amazon.com/images/I/51TnnvAhkZL._SX679_.jpg" 
                 alt="Interactive learning session" 
                 className="w-full h-full object-cover lg:object-contain lg:h-auto lg:max-h-[300px]"
               />
